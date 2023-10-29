@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    text-align: center;
+    background-image: url('/img/background.jpg');
+    color: aliceblue;
+}
+
+.title{
+    color: aliceblue;
+
+}
+.subtitle{
+    color: aliceblue;
+}
+.button{
+    margin-top:15px
+}
+.tile .is-child{
+    margin-top: 10px;
+    background-color: rgba(240, 248, 255, 0.425);
+    backdrop-filter: blur(10px);
+}
+.tile{
+    margin-top: 10px;
+}
+#hero1{
+    background-color: rgba(8, 81, 145, 0.425);
+    backdrop-filter: blur(10px);
+   
+}
+#hero2{
+    background-color: rgba(8, 145, 49, 0.425);
+    backdrop-filter: blur(10px);
+   
+}
+#hero3{
+    background-color: rgba(136, 145, 8, 0.425);
+    backdrop-filter: blur(10px);
+   
+}
+#hero4{
+    background-color: rgba(145, 8, 49, 0.425);
+    backdrop-filter: blur(10px);
+   
+}
+.hero .hero-body{
+    color:white
+}
