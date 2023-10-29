@@ -1,13 +1,26 @@
-body{
+head,body{
     background-color: black;
     text-align: center;
     background-image: url('/img/background.jpg');
     color: aliceblue;
 }
+.navbar {
+    
+    background-color:rgba(0, 153, 255, 0.089)
+}
+.navbar .navbar-item{
 
+    color:white
+}
+.navbar-menu{
+    background-color:rgba(0, 153, 255, 0.089)
+}
 .title{
     color: aliceblue;
 
+}
+a{
+    color:aliceblue
 }
 .subtitle{
     color: aliceblue;

@@ -17,7 +17,12 @@ app.set("views", views)
 app.get("/",(req,res)=>{
     res.render("home")
 })
-
+app.get("/certifications",(req,res)=>{
+    res.render("certifications")
+})
+app.get("/about",(req,res)=>{
+    res.render("about")
+})
 
 
 
