@@ -15,13 +15,13 @@ app.set("views", views)
 
 
 app.get("/",(req,res)=>{
-    res.render("home")
+    res.render("home.ejs")
 })
 app.get("/certifications",(req,res)=>{
-    res.render("certifications")
+    res.render("certifications.ejs")
 })
 app.get("/about",(req,res)=>{
-    res.render("about")
+    res.render("about.ejs")
 })
 
 
