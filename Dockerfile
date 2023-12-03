@@ -1,13 +1,13 @@
 FROM node:latest
 
-WORKDIR /ionic/app.js
+WORKDIR /usr/src/app
 
-COPY package*.json .
+COPY package*.json app.js ./
 
 RUN npm install
 
 EXPOSE 8080
 
-CMD ["node","app.js"]
+CMD ["node", "app.js"]
 
 
